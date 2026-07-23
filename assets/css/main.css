@@ -4,3 +4,12 @@
     box-sizing: border-box;
     font-family: "Oswald",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+body{
+    height: 100vh;
+    background-image: url("../images/wald.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
