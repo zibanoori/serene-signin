@@ -22,8 +22,8 @@ a {
   color: #06c7f3;
   transition: 0.3s;
 }
-a:hover{
-    color: #05a8d0;
+a:hover {
+  color: #05a8d0;
 }
 
 .login-container {
@@ -77,21 +77,21 @@ a:hover{
   background: rgba(255, 255, 255, 0.12);
   border-color: #06c7f3;
 }
-.input-box label{
-    display: none;
+.input-box label {
+  display: none;
 }
-.options{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
-    margin-bottom: 32px;
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 32px;
 }
-.options label{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
+.options label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
 }
 .options input[type="checkbox"] {
   width: 16px;
@@ -100,21 +100,27 @@ a:hover{
   accent-color: #4d8491;
   border-radius: 10px;
 }
-button[type="submit"]{
-    width: 100%;
-    padding: 16px;
-    background: #4d8491;
-    border: none;
-    border-radius: 15px;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: 0.3s;
-    margin-bottom: 20px;
+button[type="submit"] {
+  width: 100%;
+  padding: 16px;
+  background: #4d8491;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 20px;
 }
-button[type="submit"]:hover{
-    background: #52afc4;
-    transform: translateY(-4px);
-    box-shadow: 0 5px 15px rgba();
+button[type="submit"]:hover {
+  background: #52afc4;
+  transform: translateY(-4px);
+  box-shadow: 0 5px 15px rgba();
+}
+.footer-login {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+  opacity: 0.7;
 }
