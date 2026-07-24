@@ -113,3 +113,8 @@ button[type="submit"]{
     transition: 0.3s;
     margin-bottom: 20px;
 }
+button[type="submit"]:hover{
+    background: #52afc4;
+    transform: translateY(-4px);
+    box-shadow: 0 5px 15px rgba();
+}
