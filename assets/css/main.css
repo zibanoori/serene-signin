@@ -1,72 +1,81 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
 }
 
 body {
-    height: 100vh;
-    background-image: url("../images/wald.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  height: 100vh;
+  background-image: url("../images/wald.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.login-container {
+  position: absolute;
+  width: 400px;
+  left: 200px;
+  height: 450px;
+  padding: 50px 40px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  color: white;
+}
+.title {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  letter-spacing: 1px;
+}
+.login-header p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  opacity: 0.7;
+}
+.input-box {
+  position: relative;
+  margin-bottom: 25px;
+}
+.input-box i {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 18px;
+}
+.input-box input {
+  width: 100%;
+  padding: 15px 15px 15px 40px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 16px;
+  outline: none;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.input-box input:focus {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: #06c7f3;
+}
+.options{
     display: flex;
-    position: relative;
-    align-items: center; 
-}
-
-a { text-decoration: none; }
-
-.login-container{
-    position: absolute;
-    width: 400px;
-    left: 200px;
-    height: 450px;
-    padding: 50px 40px;
-    background: rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(18px);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    color: white;
-}
-.title{
-    font-size: 38px;
-    font-weight: 600;
-    margin-bottom: 6px;
-    letter-spacing: 1px;
-}
-.login-header p{
-    font-size: 16px;
-    margin-bottom: 30px;
-    opacity: 0.7;
-}
-.input-box{
-    position: relative;
-    margin-bottom: 25px;
-}
-.input-box i{
-    position: absolute;
-    left: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 18px;
-}
-.input-box input{
-    width: 100%;
-    padding: 15px 15px 15px 40px;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 15px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    color: white;
-    font-size: 16px;
-    outline: none;
-    transition: 0.4s;
-    cursor: pointer;
-}
-.input-box input:focus{
-    background: rgba(255, 255, 255, 0.12);
-    border-color: #06c7f3;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 32px;
 }
