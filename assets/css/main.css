@@ -94,3 +94,10 @@ a:hover{
     gap: 10px;
     cursor: pointer;
 }
+.options input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: #4d8491;
+  border-radius: 10px;
+}
