@@ -28,6 +28,7 @@ a { text-decoration: none; }
     backdrop-filter: blur(18px);
     border: 1px solid rgba(255, 255, 255, 0.15);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
     color: white;
 }
 .title{
@@ -44,4 +45,18 @@ a { text-decoration: none; }
 .input-box{
     position: relative;
     margin-bottom: 25px;
+}
+.input-box i{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 18px;
+}
+.input-box input{
+    width: 100%;
+    padding: 15px 15px 15px 40px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
 }
