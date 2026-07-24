@@ -139,3 +139,7 @@ button[type="submit"]:hover {
     gap: 10px;
     cursor: pointer;
 }
+.social button:hover{
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.3);
+}
