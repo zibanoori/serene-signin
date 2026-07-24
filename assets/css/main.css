@@ -19,6 +19,11 @@ body {
 
 a {
   text-decoration: none;
+  color: #06c7f3;
+  transition: 0.3s;
+}
+a:hover{
+    color: #05a8d0;
 }
 
 .login-container {
