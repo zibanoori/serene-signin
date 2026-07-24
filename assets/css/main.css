@@ -66,3 +66,7 @@ a { text-decoration: none; }
     transition: 0.4s;
     cursor: pointer;
 }
+.input-box input:focus{
+    background: rgba(255, 255, 255, 0.12);
+    border-color: #06c7f3;
+}
