@@ -7,7 +7,7 @@
 
 body {
   height: 100vh;
-  background-image: url("../images/wald.png");
+  background-image: url("../images/nature.avif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -16,7 +16,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 a {
   text-decoration: none;
   color: #06c7f3;
