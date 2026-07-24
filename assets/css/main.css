@@ -30,7 +30,6 @@ a:hover{
   position: absolute;
   width: 400px;
   left: 200px;
-  height: 450px;
   padding: 50px 40px;
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(18px);
@@ -100,4 +99,17 @@ a:hover{
   cursor: pointer;
   accent-color: #4d8491;
   border-radius: 10px;
+}
+button[type="submit"]{
+    width: 100%;
+    padding: 16px;
+    background: #4d8491;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 20px;
 }
