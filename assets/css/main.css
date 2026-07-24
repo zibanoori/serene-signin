@@ -88,3 +88,9 @@ a:hover{
     font-size: 14px;
     margin-bottom: 32px;
 }
+.options label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
