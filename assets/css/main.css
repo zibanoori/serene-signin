@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Oswald", Arial, sans-serif;
-  
 }
 
 body {
@@ -146,6 +145,9 @@ button[type="submit"]:hover {
   align-items: center;
   gap: 10px;
   cursor: pointer;
+}
+.options label a {
+  margin-left: 60px; 
 }
 .social {
   display: flex;
