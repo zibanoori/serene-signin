@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", Arial, sans-serif;
 }
 
 body {
@@ -79,7 +79,9 @@ a:hover {
   display: none;
 }
 input::placeholder {
-    color: rgb(244, 240, 240); /* هر رنگی که دوست داری اینجا بنویس */
+  color: rgb(244, 240, 240);
+  letter-spacing: 1.5px;
+  font-size: 18px;
 }
 .options {
   display: flex;
