@@ -66,7 +66,7 @@ a:hover {
   border-radius: 15px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   outline: none;
   transition: 0.4s;
   cursor: pointer;
@@ -77,6 +77,9 @@ a:hover {
 }
 .input-box label {
   display: none;
+}
+input::placeholder {
+    color: rgb(244, 240, 240); /* هر رنگی که دوست داری اینجا بنویس */
 }
 .options {
   display: flex;
