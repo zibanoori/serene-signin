@@ -107,24 +107,43 @@ input::placeholder {
   accent-color: #4d8491;
   border-radius: 10px;
 }
-button[type="submit"] {
-  width: 100%;
-  padding: 16px;
-  background: #4d8491;
+.button-group {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.btn {
+  flex: 1;
+  padding: 12px;
   border: none;
   border-radius: 15px;
-  color: white;
-  font-size: 18px;
-  font-weight: 600;
+  box-shadow: -1px 1px 20px 0px rgb(147, 147, 144);;
+  font-size: 16px;
   cursor: pointer;
-  transition: 0.3s;
-  margin-bottom: 20px;
+  transition: background-color 0.3s;
 }
-button[type="submit"]:hover {
-  background: #488897;
-  transform: translateY(-4px);
-  box-shadow: 0 5px 15px rgba(48, 217, 255, 0.4);
+
+.sign-in-btn {
+  background-color: #4d8491;
+  color: white;
 }
+
+.sign-in-btn:hover {
+  background-color: #3d6a75;
+}
+
+.register-btn {
+  background-color: #4d8491;
+  color: white;
+  border: 2px solid #4d8491;
+}
+
+.register-btn:hover {
+ background-color: #3d6a75;
+  
+}
+
 .footer-login {
   text-align: center;
   font-size: 16px;
@@ -132,8 +151,8 @@ button[type="submit"]:hover {
   opacity: 0.7;
 }
 .social button {
-  width: 100%;
-  padding: 14px;
+  width: 85%;
+  padding: 12px;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 15px;
@@ -147,14 +166,15 @@ button[type="submit"]:hover {
   cursor: pointer;
 }
 .options label a {
-  margin-left: 60px; 
+  margin-left: 60px;
 }
+
 .social {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
 .social button:hover {
   background: rgba(255, 255, 255, 0.15);
